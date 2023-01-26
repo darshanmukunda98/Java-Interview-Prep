@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayListExample4 {
     public static void main(String[] args){
@@ -20,7 +22,10 @@ public class ArrayListExample4 {
         System.out.println(al);
         al.add(0,"F");
         al.set(0,"replaced");
+        System.out.println(al.indexOf("A"));
         System.out.println(al);
+        System.out.println(Arrays.binarySearch(new int[]{1,2,3,4,5},3));
+
 
 
     }
