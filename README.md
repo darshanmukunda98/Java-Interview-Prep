@@ -98,3 +98,53 @@ HashSet<Integer> evens = numbers.stream().filter(n -> n % 2 == 0).collect(Collec
 
 // Use reduce to get
 ```
+
+# Converting from one built-in data structures to another
+
+In Java, you can convert from one built-in data structure to another using various methods. Here are some examples:
+
+* ArrayList to LinkedList:
+
+```
+ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+LinkedList<Integer> linkedList = new LinkedList<>(arrayList);
+```
+
+* LinkedList to ArrayList:
+
+```
+LinkedList<Integer> linkedList = new LinkedList<>(Arrays.asList(1, 2, 3, 4, 5));
+ArrayList<Integer> arrayList = new ArrayList<>(linkedList);
+```
+
+* Array to ArrayList
+
+``` 
+int[] array = {1, 2, 3, 4, 5};
+ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(ArrayUtils.toObject(array)));
+```
+
+* ArrayList to Array
+
+``` 
+ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+int[] array = ArrayUtils.toPrimitive(arrayList.toArray(new Integer[0]));
+```
+
+* HashMap to TreeMap
+
+```
+HashMap<String, Integer> hashMap = new HashMap<>();
+hashMap.put("One", 1);
+hashMap.put("Two", 2);
+hashMap.put("Three", 3);
+TreeMap<String, Integer> treeMap = new TreeMap<>(hashMap);
+```
+
+* HashSet to TreeSet
+
+``` 
+HashSet<Integer> hashSet = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5));
+TreeSet<Integer> treeSet = new TreeSet<>(hashSet);
+```
+
