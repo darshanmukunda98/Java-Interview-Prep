@@ -17,3 +17,5 @@
 * Exercise 15 - Write a Java program to join two array lists.
 * Exercise 16 - Write a Java program to clone an array list to another array list.
 * Exercise 17 - Write a Java program to empty an array list.
+* Exercise 18 - Write a Java program to test an array list is empty or not.
+* 
