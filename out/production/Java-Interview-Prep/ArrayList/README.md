@@ -7,4 +7,5 @@
 * Exercise 5 - Write a Java program to update specific array element by given element.
 * Exercise 6 - Write a Java program to remove the third element from a array list.
 * Exercise 7 - Write a Java program to search an element in a array list.
+* Exercise 8 - Write a Java program to sort a given array list.
 * 
