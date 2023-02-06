@@ -9,3 +9,4 @@
 * Exercise 7 - Write a Java program to search an element in a array list.
 * Exercise 8 - Write a Java program to sort a given array list.
 * Exercise 9 - Write a Java program to copy one array list into another.
+* Exercise 10 - Write a Java program to shuffle elements in a array list.
