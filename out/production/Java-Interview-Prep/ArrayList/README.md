@@ -15,3 +15,5 @@
 * Exercise 13 - Write a Java program to compare two array lists.
 * Exercise 14 - Write a Java program of swap two elements in an array list.
 * Exercise 15 - Write a Java program to join two array lists.
+* Exercise 16 - Write a Java program to clone an array list to another array list.
+* Exercise 17 - Write a Java program to empty an array list.
