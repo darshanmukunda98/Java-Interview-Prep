@@ -10,4 +10,4 @@
 * Exercise 8 - Write a Java program to sort a given array list.
 * Exercise 9 - Write a Java program to copy one array list into another.
 * Exercise 10 - Write a Java program to shuffle elements in a array list.
-* 
+* Exercise 11 -  Write a Java program to reverse elements in a array list. 
