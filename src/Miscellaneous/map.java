@@ -1,13 +1,14 @@
+package Miscellaneous;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 import java.util.stream.Stream;
 
 public class map {
     public static void main(String[] args) {
 
-        List<Integer> myList = new ArrayList<Integer>();
+        List<Integer> myList = new ArrayList<>();
         int[] array = {1, 5, 8};
         myList.add(1);
         myList.add(5);

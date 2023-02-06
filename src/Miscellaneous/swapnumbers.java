@@ -1,7 +1,9 @@
+package Miscellaneous;
+
 import java.util.Scanner;
 
 public class swapnumbers {
-    public static void  main(String[] args){
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
         int b = s.nextInt();
