@@ -12,3 +12,4 @@
 * Exercise 10 - Write a Java program to shuffle elements in a array list.
 * Exercise 11 -  Write a Java program to reverse elements in a array list. 
 * Exercise 12 - Write a Java program to extract a portion of a array list.
+* Exercise 13 - Write a Java program to compare two array lists.
