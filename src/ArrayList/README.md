@@ -21,4 +21,4 @@
 * Exercise 19 - Write a Java program to trim the capacity of an array list the current list size.
 * Exercise 20 - Write a Java program to increase the size of an array list
 * Exercise 21 - Write a Java program to replace the second element of a ArrayList with the specified element. 
-* 
+* Exercise 22 - Write a Java program to print all the elements of a ArrayList using the position of the elements.
