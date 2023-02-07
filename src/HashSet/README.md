@@ -6,3 +6,4 @@
 * Exercise 5 -  Write a Java program to test a hash set is empty or not.
 * Exercise 6 - Write a Java program to clone a hash set to another hash set.
 * Exercise 7 - Write a Java program to convert a hash set to an array.
+* Exercise 8 - Write a Java program to convert a hash set to a tree set.
