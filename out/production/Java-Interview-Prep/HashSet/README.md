@@ -8,3 +8,5 @@
 * Exercise 7 - Write a Java program to convert a hash set to an array.
 * Exercise 8 - Write a Java program to convert a hash set to a tree set.
 * Exercise 9 - Write a Java program to convert a hash set to a List/ArrayList.
+* Exercise 10 - Write a Java program to compare two hash set. 
+* 
