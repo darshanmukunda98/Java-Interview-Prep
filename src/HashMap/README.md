@@ -4,3 +4,5 @@
 * Exercise 2 - Write a Java program to count the number of key-value (size) mappings in a map.
 * Exercise 3 - Write a Java program to copy all of the mappings from the specified map to another map.
 * Exercise 4 - Write a Java program to remove all the mappings from a map.
+* Exercise 5 - Write a Java program to check whether a map contains key-value mappings (empty) or not.
+* Exercise 6 - Write a Java program to get a shallow copy of a HashMap instance.
