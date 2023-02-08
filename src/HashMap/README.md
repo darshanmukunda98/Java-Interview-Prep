@@ -9,3 +9,4 @@
 * Exercise 7 - Write a Java program to test if a map contains a mapping for the specified key.
 * Exercise 8 - Write a Java program to test if a map contains a mapping for the specified value.
 * Exercise 9 - Write a Java program to create a set view of the mappings contained in a map.
+* Exercise 10 - Write a Java program to get the value of a specified key in a map
