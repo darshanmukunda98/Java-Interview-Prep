@@ -6,4 +6,6 @@
 * Exercise 4 - Write a Java program to remove all the mappings from a map.
 * Exercise 5 - Write a Java program to check whether a map contains key-value mappings (empty) or not.
 * Exercise 6 - Write a Java program to get a shallow copy of a HashMap instance.
-* Exercise 7 -  Write a Java program to test if a map contains a mapping for the specified key.
+* Exercise 7 - Write a Java program to test if a map contains a mapping for the specified key.
+* Exercise 8 - Write a Java program to test if a map contains a mapping for the specified value.
+* Exercise 9 - Write a Java program to create a set view of the mappings contained in a map.
