@@ -10,10 +10,10 @@ public class Contains_Duplicate {
     }
 
     public static boolean containsDuplicate(int[] nums) {
-        Map<Integer,Integer> map = new HashMap<>();
+        Set<Integer> set = new HashSet<>();
         for(int i : nums){
-            if (!map.containsKey(i))
-                map.put(i,1);
+            if (!set.contains(i))
+                set.add(i);
             else
                 return true;
         }
