@@ -1,6 +1,7 @@
 package LinkedList;
 
 import java.util.LinkedList;
+import java.util.Spliterator;
 
 public class Exercise26 {
     public static void main(String[] args) {
