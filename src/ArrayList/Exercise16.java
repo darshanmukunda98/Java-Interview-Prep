@@ -9,7 +9,7 @@ public class Exercise16 {
         li.add("White");
         li.add("Pink");
         System.out.println("Original array "+li);
-        ArrayList<String> newli = new ArrayList<>(li);
+        List<String> newli = new ArrayList<>(li);
         System.out.println("Cloned array");
         System.out.println(newli);
     }
