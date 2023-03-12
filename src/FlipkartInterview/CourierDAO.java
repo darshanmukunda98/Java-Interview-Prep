@@ -9,7 +9,7 @@ List<Courier> courierList = new ArrayList<>();
 
     @Override
     public void createCourier(String title, String senderName, String receiverName, String courierType, int sourcePIN, int destinationPIN) {
-        courierList.add(new Courier(title, senderName, receiverName, Courier.CourierType.valueOf(courierType), sourcePIN, destinationPIN));
+        courierList.add(new Courier(title, senderName, receiverName, Courier.CourierType.valueOf(courierType.toUpperCase()), sourcePIN, destinationPIN));
     }
 
     @Override
@@ -35,7 +35,7 @@ List<Courier> courierList = new ArrayList<>();
     }
 
     @Override
-    public void displayCourierByStatus(String courierStatus) {
+    public void displayCouriersByStatus(String courierStatus) {
         courierList
                 .stream()
                 .filter(courier -> courier
@@ -46,7 +46,7 @@ List<Courier> courierList = new ArrayList<>();
     }
 
     @Override
-    public void displayCourierByType(String courierType) {
+    public void displayCouriersByType(String courierType) {
         courierList
                 .stream()
                 .filter(courier -> courier

@@ -14,6 +14,6 @@ public interface CourierDAOInterface {
                                      String courierStatus);
     public void displayAllCouriers();
     public void displayCouriersBySender(String senderName);
-    public void displayCourierByStatus(String courierStatus);
-    public void displayCourierByType(String courierType);
+    public void displayCouriersByStatus(String courierStatus);
+    public void displayCouriersByType(String courierType);
 }
